@@ -1,30 +1,47 @@
 .menu-container {
-    padding-top: 50px;
-    padding-bottom: 50px;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    gap: 50px;
+  padding-top: 50px;
+  padding-bottom: 50px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 50px;
 }
 
 .category-buttons {
-    display: flex;
-    gap: 20px;
+  display: flex;
+  gap: 20px;
 }
 
 .category-buttons > button {
-    width: 150px;
-    font-size: 14px;
-    font-weight: 300;
-    border: none;
-    background: none;
-    padding: 10px;
-    color: rgb(67, 67, 67);
-    cursor: pointer;
+  width: 190px;
+  font-size: 14px;
+  font-weight: 300;
+  border: none;
+  background: none;
+  padding: 10px;
+  color: rgb(67, 67, 67);
+  cursor: pointer;
 }
 
 .category-buttons > button.active {
-    border-bottom: 2px solid rgb(137, 198, 137);
-    color: rgb(137, 198, 137);
-    font-weight: 600;
-  }
+  border-bottom: 2px solid rgb(137, 198, 137);
+  color: rgb(137, 198, 137);
+  font-weight: 600;
+}
+
+.menu-items-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 420px);
+  gap: 20px;
+}
+
+.menu-item {
+  border: 1px solid #ccc;
+  padding: 20px;
+}
+
+#menu-price {
+    font-weight: 500;
+    padding-top: 10px;
+    color: rgb(70, 128, 70);
+}

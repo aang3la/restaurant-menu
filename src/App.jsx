@@ -5,10 +5,8 @@ import { Menu } from "./components/Menu/Menu";
 function App() {
   return (
     <>
-      <section id="upper-section">
-        <Header />
-        <HeroSection />
-      </section>
+      <Header />
+      <HeroSection />
       <Menu />
     </>
   );

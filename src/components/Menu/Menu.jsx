@@ -22,25 +22,18 @@ export const Menu = () => {
           </button>
         ))}
       </div>
-      <table>
-        <thead>
-          <tr>
-            <th>Име на продукт</th>
-            <th>Цена</th>
-          </tr>
-        </thead>
-        <tbody>
-          {selectedCategory &&
-            menuData
-              .find((categoryData) => categoryData.category === selectedCategory)
-              ?.items.map((item, i) => (
-                <tr key={i}>
-                  <td>{item.name} {item.description ? `${item.description}` : ''}</td>
-                  <td>{item.price}ден.</td>
-                </tr>
-              ))}
-        </tbody>
-      </table>
+      <div className="menu-items-grid">
+        {selectedCategory &&
+          menuData
+            .find((categoryData) => categoryData.category === selectedCategory)
+            ?.items.map((item, i) => (
+              <div key={i} className="menu-item">
+                <div><b>{item.name}</b></div>
+                <div>{item.description ? `${item.description}` : ""}</div>
+                <div id="menu-price">{item.price}ден.</div>
+              </div>
+            ))}
+      </div>
     </section>
   );
 };
