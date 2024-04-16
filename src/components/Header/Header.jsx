@@ -1,5 +1,6 @@
-import businessLogo from "../../assets/businessLogo.png";
+import businessLogo from "../../assets/logo.png";
 import "./Header.css";
+import { Link } from "react-scroll";
 
 export const Header = () => {
   return (
@@ -9,9 +10,14 @@ export const Header = () => {
       </div>
       <nav className="navigation-container">
         <ul className="nav-list">
-            <li className="nav-element">ДОМА</li>
-            <li className="nav-element">ЗА НАС</li>
-            <li className="nav-element">КОНТАКТ</li>
+          <li className="nav-element">
+            <Link to="hero-section">ДОМА</Link>
+          </li>
+          <li className="nav-element">
+            <Link to="menu">МЕНИ</Link>
+          </li>
+          <li className="nav-element">ЗА НАС</li>
+          <li className="nav-element">КОНТАКТ</li>
         </ul>
       </nav>
     </header>

@@ -3,14 +3,14 @@ import "./Menu.css";
 import { useState } from "react";
 
 export const Menu = () => {
-  const [selectedCategory, setSelectedCategory] = useState(null);
+  const [selectedCategory, setSelectedCategory] = useState("Доручек");
 
   const handleCategoryClick = (category) => {
     setSelectedCategory(category);
   };
 
   return (
-    <section className="menu-container">
+    <section className="menu-container" id="menu">
       <div className="category-buttons">
         {menuData.map((categoryData) => (
           <button
