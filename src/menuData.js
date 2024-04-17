@@ -10,7 +10,7 @@ export const menuData = [
             {
                 name: "Шкембе чорба",
                 description: "(шкембе,брашно,кромид)",
-                price: "0"
+                price: "140"
             },
             {
                 name: "Омлет со шунка и кашкавал",
@@ -35,7 +35,7 @@ export const menuData = [
             {
                 name: "Македонска салата",
                 description: "(домат,кромид,пиперка,магдонос)",
-                price: "0"
+                price: "140"
             },
             {
                 name: "Грчка салата",
@@ -134,13 +134,13 @@ export const menuData = [
                 price: "1кг/600"
             },
             {
-                name: "Ражнич пилешки/свински",
-                price: "0"
+                name: "Ражнич пилешки/свински 1кг.",
+                price: "600/700"
             },
             {
-                name: "Пилешки/свински увијач",
+                name: "Пилешки/свински увијач 1кг",
                 description: "(пилешки стек/свинско,кашкавал,сланина)",
-                price: "0"
+                price: "600/700"
             },
             {
                 name: "Свинско ребро",
@@ -224,7 +224,7 @@ export const menuData = [
             },
             {
                 name: "Спрајт 0.33мл",
-                price: "0"
+                price: "70"
             },
             {
                 name: "Густи сок некст 0.33мл",
@@ -270,11 +270,11 @@ export const menuData = [
             },
             {
                 name: "Вотка смирноф",
-                price: "0"
+                price: "100"
             },
             {
                 name: "Вотка фаландија",
-                price: "0"
+                price: "100"
             },
             {
                 name: "Џин сах",
@@ -294,7 +294,7 @@ export const menuData = [
             },
             {
                 name: "Лашко 0.5",
-                price: "0"
+                price: "90"
             },
             {
                 name: "Амстел 0.5",
@@ -322,31 +322,31 @@ export const menuData = [
             },
             {
                 name: "Темјаника 0.7мл",
-                price: "0"
+                price: "600"
             },
             {
                 name: "Траминец 0.7мл",
-                price: "0"
+                price: "600"
             },
             {
                 name: "Александрија бело 0.7мл",
                 price: "90"
             },
             {
-                name: "Вранец",
-                price: "0"
+                name: "Вранец 1л",
+                price: "280"
             },
             {
-                name: "Македонско црвено",
-                price: "0"
+                name: "Македонско црвено 1л",
+                price: "280"
             },
             {
                 name: "Александрија црвено",
-                price: "0"
+                price: "600"
             },
             {
                 name: "Т'га за југ црвено 0.7мл",
-                price: "0"
+                price: "600"
             },
         ]
     }
