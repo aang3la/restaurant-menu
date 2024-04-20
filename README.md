@@ -1,8 +1,13 @@
-# React + Vite
+# Website for a Restaurant
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+This project is for a traditional restaurant, catering to both mobile and desktop versions. Here's a brief overview:
 
-Currently, two official plugins are available:
+### Purpose: 
+This repository aims to create a user-friendly interface to showcase the main information about the restaurant and its menu, including prices.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+### Features:
+1. Responsive Design: Ensures compatibility and optimal display across various devices.
+
+2. Menu Display: Clearly presents the restaurant's offerings, categorized and with corresponding prices.
+   
+3. QR Code Integration: Each table in the restaurant will have a QR code that directs customers to the mobile version of the website for easy access to the menu.
