@@ -16,7 +16,9 @@ export const Header = () => {
           <li className="nav-element">
             <Link to="menu">МЕНИ</Link>
           </li>
-          <li className="nav-element">ЗА НАС</li>
+          <li className="nav-element">
+          <Link to="about">ЗА НАС</Link>
+          </li>
           <li className="nav-element">КОНТАКТ</li>
         </ul>
       </nav>
