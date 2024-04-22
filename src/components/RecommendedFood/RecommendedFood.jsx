@@ -12,15 +12,18 @@ export const RecommendedFood = () => {
       <ul className="recommended-food-imgs">
         <li className="food-item">
           <img src={food} alt="recommended-food-img1" />
-          <p>Јадење 1</p>
+          <h4>Јадење 1</h4>
+          <p>Јадење 1Јадење 1Јадење 1Јадење 1Јадење 1</p>
         </li>
         <li className="food-item">
           <img src={food} alt="recommended-food-img2" />
-          <p>Јадење 2</p>
+          <h4>Јадење 2</h4>
+          <p>Јадење 1</p>
         </li>
         <li className="food-item">
           <img src={food} alt="recommended-food-img3" />
-          <p>Јадење 3</p>
+          <h4>Јадење 3</h4>
+          <p>Јадење 1</p>
         </li>
       </ul>
     </section>

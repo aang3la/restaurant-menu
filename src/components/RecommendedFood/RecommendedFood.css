@@ -33,6 +33,7 @@
     height: 350px;
     border-radius: 20px;
     background-color: white;
+    padding-bottom: 5px;
 }
 
 .food-item > img {
@@ -42,10 +43,15 @@
     border-top-right-radius: 20px;
 }
 
-.food-item > p {
+.food-item > h4 {
     text-align: center;
     font-size: 15px;
     font-weight: 500;
+}
+
+.food-item > p {
+    text-align: center;
+    font-size: 12px;
 }
 
 .recommended-food-imgs li {
