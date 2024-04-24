@@ -1,11 +1,10 @@
 .footer-container {
   height: 470px;
-  background-color: rgb(188, 219, 188);
+  background-color: rgb(188, 219, 188, 0.4);
   margin-top: 70px;
   display: flex;
-  justify-content: space-around;
+  justify-content: space-evenly;
   align-items: center;
-  gap: 30px;
 }
 
 .info-left > p,
@@ -23,13 +22,17 @@
 }
 
 #clock, #location, #facebook, #instagram {
-  width: 25px;
+  width: 23px;
 }
 
 .social-media {
-    padding-top: 25px;
+    padding-top: 20px;
 }
 
 .social-media > p {
     font-size: 14px;
+}
+
+.social-media > a {
+  padding-right: 10px;
 }

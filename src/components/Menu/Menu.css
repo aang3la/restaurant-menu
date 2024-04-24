@@ -23,6 +23,11 @@
   cursor: pointer;
 }
 
+.category-buttons > button:hover {
+  color: rgb(137, 198, 137);
+  font-weight: 600;
+}
+
 .category-buttons > button.active {
   border-bottom: 2px solid rgb(137, 198, 137);
   color: rgb(137, 198, 137);

@@ -1,9 +1,11 @@
 import "./HeroSection.css";
+import businessLogo from "../../assets/logo.png";
 
 export const HeroSection = () => {
   return (
     <section className="Hero-section" id="hero-section">
-      <h1>Добредојде во нашиот традиционален ресторан "Кај Стара Липа"!</h1>
+      <img src={businessLogo} alt="logo" />
+      <h1>Добредојде во нашиот традиционален ресторан!</h1>
     </section>
   );
 };

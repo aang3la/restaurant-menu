@@ -1,25 +1,21 @@
 .Header {
-  height: 175px;
+  height: 70px;
   position: sticky;
   top: 0;
   z-index: 1000;
-  background-color: white;
+  background-color: rgba(255, 255, 255, 0.7);
+  backdrop-filter: blur(5px); 
+  transition: background-color 0.3s ease-in-out; 
   display: flex;
-  flex-direction: column;
+  flex-direction: row;
   justify-content: space-between;
   align-items: center;
 }
 
 .logo-container img {
-  width: 130px;
-  height: 110px;
-  padding-left: 5px;
-}
-
-.navigation-container {
-  width: 100%;
-  box-sizing: border-box;
-  margin: 0 auto;
+  width: 70px;
+  height: 60px;
+  padding-left: 20px;
 }
 
 .nav-list {
@@ -27,9 +23,8 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  gap: 35px;
-  padding-top: 7px;
-  border-top: 1px solid rgba(68, 110, 46, 0.378);
+  gap: 10px;
+  padding-right: 40px;
 }
 
 .nav-element {

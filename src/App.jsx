@@ -13,7 +13,7 @@ function App() {
       <RecommendedFood />
       <h1 id="headline">Мени</h1>
       <Menu />
-      <h1 id="headline">За нас</h1>
+      <h1 id="headline">Зошто Кај Стара Липа?</h1>
       <About />
       <Footer />
     </>
