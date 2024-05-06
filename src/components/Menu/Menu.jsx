@@ -29,7 +29,7 @@ export const Menu = () => {
             ?.items.map((item, i) => (
               <div key={i} className="menu-item">
                 <div><b>{item.name}</b></div>
-                <div>{item.description ? `${item.description}` : ""}</div>
+                <div className="item-desc">{item.description ? `${item.description}` : ""}</div>
                 <div id="menu-price">{item.price}ден.</div>
               </div>
             ))}
