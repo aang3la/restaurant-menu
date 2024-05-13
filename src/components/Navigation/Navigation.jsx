@@ -1,10 +1,10 @@
 import businessLogo from "../../assets/logo.png";
-import "./Header.css";
+import "./Navigation.css";
 import { Link } from "react-scroll";
 
-export const Header = () => {
+export const Navigation = () => {
   return (
-    <header className="Header">
+    <header className="Navigation">
       <div className="logo-container">
         <img src={businessLogo} alt="logo" />
       </div>

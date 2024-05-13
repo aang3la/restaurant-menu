@@ -1,6 +1,6 @@
 import { About } from "./components/About/About";
 import { Footer } from "./components/Footer/Footer";
-import { Header } from "./components/Header/Header";
+import { Navigation } from "./components/Navigation/Navigation";
 import { HeroSection } from "./components/HeroSection/HeroSection";
 import { Menu } from "./components/Menu/Menu";
 import { RecommendedFood } from "./components/RecommendedFood/RecommendedFood";
@@ -8,7 +8,7 @@ import { RecommendedFood } from "./components/RecommendedFood/RecommendedFood";
 function App() {
   return (
     <>
-      <Header />
+      <Navigation />
       <HeroSection />
       <RecommendedFood />
       <h1 id="headline">Мени</h1>
