@@ -15,3 +15,21 @@
     width: 600px;
     height: 300px;
 }
+@media only screen and (max-width: 600px) {
+    .about-container {
+        width: 100%;
+        flex-direction: column;
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+
+    .about-section {
+        width: 370px;
+        margin: 0 auto;
+    }
+
+    #about-is-img { 
+        width: 95%;
+        margin: 0 auto;
+    }
+}
