@@ -24,16 +24,16 @@
 @media only screen and (max-width: 600px) {
   .Hero-section {
     width: 100%;
-    height: 400px;
+    height: 300px;
   }
 
   .Hero-section > h1 {
-    font-size: 19px;
+    font-size: 17px;
     text-align: center;
     width: 100%;
   }
 
   .Hero-section > img {
-    width: 180px;
+    width: 170px;
   }
 }
