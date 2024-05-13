@@ -15,23 +15,14 @@ html {
   color: rgb(57, 44, 44);
 }
 
-/* Media queries */
 @media only screen and (max-width: 600px) {
-  /* extra small devices */
+  body {
+    overflow-x: hidden; 
+  }
 }
 
-@media only screen and (min-width: 600px) {
-  /* small devices */
-}
-
-@media only screen and (min-width: 760px) {
-  /* medium devices */
-}
-
-@media only screen and (min-width: 992px) {
-  /* large devices */
-}
-
-@media only screen and (min-width: 1200px) {
-  /* extra large devices */
+@media only screen and (min-width: 430px) and (max-width: 770px) {
+  body {
+    overflow-x: hidden; 
+  }
 }
