@@ -33,7 +33,7 @@
 
 .category-buttons > button.active {
   border: 1px solid rgb(137, 198, 137);
-  color: rgb(137, 198, 137);
+  color: rgb(113, 160, 113);
   font-weight: 600;
 }
 
@@ -77,9 +77,9 @@
     width: 120px;
     padding: 10px;
     text-align: center;
-    font-size: 12px;
+    font-size: 13px;
     border: 1px solid black;
-    border-radius: 25px;
+    border-radius: 30px;
     margin-right: 10px;
   }
 

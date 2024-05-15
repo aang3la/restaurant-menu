@@ -36,3 +36,12 @@
 .social-media > a {
   padding-right: 10px;
 }
+
+
+@media only screen and (max-width: 600px) {
+  .footer-container {
+    flex-direction: column;
+    height: 770px;
+  }
+  
+}
