@@ -12,8 +12,8 @@
 }
 
 #about-is-img {
-    width: 600px;
-    height: 300px;
+    width: 550px;
+    border-radius: 20px;
 }
 @media only screen and (max-width: 600px) {
     .about-container {

@@ -1,11 +1,13 @@
 import "./About.css";
-import aboutUs_img from "../../assets/hero-img.png";
+import aboutUs_img from "../../assets/lipa_outside.jpg";
 
 export const About = () => {
   return (
     <section className="about-container" id="about">
         <div className="about-section">
-            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Impedit nemo rerum dolorum quibusdam quos quia, non accusamus nulla atque delectus minus debitis blanditiis sapiente, voluptate beatae, deleniti placeat molestiae saepe. Lorem ipsum dolor sit amet consectetur, adipisicing elit. Impedit nemo rerum dolorum quibusdam quos quia, non accusamus nulla atque delectus minus debitis blanditiis sapiente, voluptate beatae, deleniti placeat molestiae saepe.</p>
+          <p>Во срцето на градот, на само неколку чекори од главните знаменитости, се наоѓа нашата традиционална кафана. Нашата мисија отсекогаш била да создадеме место каде што луѓето ќе се чувствуваат како дома, опкружени со пријатен амбиент и автентични вкусови.</p>
+            <p>Постоиме од 2003 година, започнувајќи со приготвување на риба, до денес каде што сме многу повеќе од тоа. Кај нас ќе најдете вистински домашен вкус и топлина кои ги главните работи зашто нашите гости секогаш да се враќаат.</p>
+            <p>Што нè издвојува? Автентични вкусови по традиционални рецепти, пријателски персонал, посебен шалтер за храна за носење, пристапни цени, и место со домашната атмосфера и идеална локација за бег од градтската врева.</p>
         </div>
         <div>
             <img id="about-is-img" src={aboutUs_img} />
