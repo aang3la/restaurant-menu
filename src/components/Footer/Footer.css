@@ -43,5 +43,9 @@
     flex-direction: column;
     height: 770px;
   }
+
+  .address-info {
+    padding-left: 15px;
+  }
   
 }
