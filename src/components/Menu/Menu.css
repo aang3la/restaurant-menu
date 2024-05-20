@@ -68,14 +68,14 @@
   .category-buttons {
     width: 100%;
     flex-direction: row;
-    margin-bottom: 30px;
+    margin-bottom: 20px;
     overflow-x: auto;
   }
 
   .category-buttons > button {
     flex: 0 0 auto;
     width: 120px;
-    padding: 10px;
+    padding: 9px;
     text-align: center;
     font-size: 13px;
     border: 1px solid black;

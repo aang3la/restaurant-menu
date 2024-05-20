@@ -47,5 +47,9 @@
   .address-info {
     padding-left: 15px;
   }
+
+  #google-maps {
+    width: 100%;
+  }
   
 }

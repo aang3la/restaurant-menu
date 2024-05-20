@@ -26,6 +26,7 @@ export const Footer = () => {
           allowfullscreen=""
           loading="lazy"
           referrerpolicy="no-referrer-when-downgrade"
+          id="google-maps"
         ></iframe>
       </div>
       <div className="info-right">
