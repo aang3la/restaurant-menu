@@ -31,5 +31,6 @@
     #about-is-img { 
         width: 95%;
         margin: 0 auto;
+        padding-top: 15px;
     }
 }

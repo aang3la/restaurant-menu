@@ -1,4 +1,6 @@
-import food from "../../assets/food.jpg";
+import riba from "../../assets/riba_spanjak.jpg";
+import turlitava from "../../assets/turlitava.jpg";
+import daska from "../../assets/daska.jpg";
 import "./RecommendedFood.css";
 import { Link } from "react-scroll";
 
@@ -11,19 +13,19 @@ export const RecommendedFood = () => {
       </div>
       <ul className="recommended-food-imgs">
         <li className="food-item">
-          <img src={food} alt="recommended-food-img1" />
-          <h4>Јадење 1</h4>
-          <p>Јадење 1Јадење 1Јадење 1Јадење 1Јадење 1</p>
+          <img src={riba} alt="recommended-food-img1" />
+          <h4>Риба по избор + спањаќ</h4>
+          <p>Црвена пастрмка во комбинација со ориз или спањаќ.</p>
         </li>
         <li className="food-item">
-          <img src={food} alt="recommended-food-img2" />
-          <h4>Јадење 2</h4>
-          <p>Јадење 1</p>
+          <img src={turlitava} alt="recommended-food-img2" />
+          <h4>Турлитава</h4>
+          <p>Мешавина од грашок, боранија, брокула, модар патлиџан, тиквица, пиперка, морков, домат и компир.</p>
         </li>
         <li className="food-item">
-          <img src={food} alt="recommended-food-img3" />
-          <h4>Јадење 3</h4>
-          <p>Јадење 1</p>
+          <img src={daska} alt="recommended-food-img3" />
+          <h4>Мешана даска</h4>
+          <p>Даска од мешано месо и помфрит. Препорачано месо: увијач, ражнич и уштипци.</p>
         </li>
       </ul>
     </section>

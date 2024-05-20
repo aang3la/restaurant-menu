@@ -37,7 +37,7 @@
 
 .food-item {
     width: 250px;
-    height: 350px;
+    height: 360px;
     border-radius: 20px;
     background-color: white;
     padding-bottom: 5px;
@@ -58,7 +58,8 @@
 
 .food-item > p {
     text-align: center;
-    font-size: 12px;
+    font-size: 11px;
+    padding: 0 10px;
 }
 
 .recommended-food-imgs li {
