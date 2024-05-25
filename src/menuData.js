@@ -193,7 +193,7 @@ export const menuData = [
             {
                 name: "Шарска плескавица 200гр",
                 description: "(мелено месо,кашкавал)",
-                price: "140"
+                price: "160"
             },
             {
                 name: "Гурманска плескавица",
@@ -310,7 +310,7 @@ export const menuData = [
             },
             {
                 name: "Смедеревка 1л",
-                price: "280"
+                price: "320"
             },
             {
                 name: "Темјаника 0.7мл",
@@ -322,15 +322,15 @@ export const menuData = [
             },
             {
                 name: "Александрија бело 0.7мл",
-                price: "90"
+                price: "600"
             },
             {
                 name: "Вранец 1л",
-                price: "280"
+                price: "320"
             },
             {
                 name: "Македонско црвено 1л",
-                price: "280"
+                price: "320"
             },
             {
                 name: "Александрија црвено",
