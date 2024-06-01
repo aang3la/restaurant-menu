@@ -73,8 +73,7 @@
     width: 100%;
     flex-direction: row;    
     overflow-x: auto;
-    padding-bottom: 20px;
-
+    padding-bottom: 10px;
   }
 
   .category-buttons > button {
@@ -94,7 +93,8 @@
 
   .menu-items-grid {
     grid-template-columns: 1fr;
-    width: 100%;
+    width: 95%;
+    margin: 0 auto;
   }
 
   #category-img {
