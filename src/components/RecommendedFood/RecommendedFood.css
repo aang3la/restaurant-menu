@@ -75,4 +75,35 @@
 
 
 @media only screen and (min-width: 430px) and (max-width: 770px) {
+    .recommended-food-container {
+        flex-direction: column;
+        height: 600px;
+        justify-content: center;
+        gap: 10px;
+        padding-left: 0;
+        padding-right: 0;
+    }
+
+    .headline-part {
+        width: 700px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        gap: 40px;
+    }
+
+    .food-item {
+        width: 220px;
+        height: 340px;
+    }
+
+    .food-item > img {
+        width: 220px;
+        height: 220px;
+    }
+
+    .recommended-food-imgs {
+        gap: 20px;
+        padding: 0px 10px;
+    }
 }

@@ -1,6 +1,7 @@
 export const menuData = [
     {
         category: "Доручек",
+        img: "./src/assets/breakfast.png",
         items: [
             {
                 name: "Телешка чорба",
@@ -26,6 +27,7 @@ export const menuData = [
     },
     {
         category: "Салати",
+        img: "./src/assets/salads.png",
         items: [
             {
                 name: "Шопска салата",
@@ -61,6 +63,7 @@ export const menuData = [
     },
     {
         category: "Топли предјадења",
+        img: "./src/assets/appetizer.png",
         items: [
             {
                 name: "Зденка похована",
@@ -99,6 +102,7 @@ export const menuData = [
     },
     {
         category: "Готвени предјадења",
+        img: "./src/assets/homemade.png",
         items: [
             {
                 name: "Грав",
@@ -139,6 +143,7 @@ export const menuData = [
     },
     {
         category: "Скара",
+        img: "./src/assets/meat.png",
         items: [
             {
                 name: "Кебап",
@@ -204,6 +209,7 @@ export const menuData = [
     },
     {
         category: "Риба",
+        img: "./src/assets/fish.png",
         items: [
             {
                 name: "Ослич без коска ",
@@ -237,6 +243,7 @@ export const menuData = [
     },
     {
         category: "Безалкохолни пијалоци",
+        img: "./src/assets/cola-icon.png",
         items: [
             {
                 name: "Кисела вода Пелистерка 1л.",
@@ -275,6 +282,7 @@ export const menuData = [
     },
     {
         category: "Aлкохолни пијалоци",
+        img: "./src/assets/alcoholic-drinks.png",
         items: [
             {
                 name: "Скопско 0.5/0.33",
@@ -290,11 +298,11 @@ export const menuData = [
             },
             {
                 name: "Амстел 0.5",
-                price: "110"
+                price: "120"
             },
             {
                 name: "Хајнекен 0.5/0.33",
-                price: "110"
+                price: "120"
             },
             {
                 name: "Ипл",

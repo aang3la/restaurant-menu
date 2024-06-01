@@ -58,6 +58,10 @@
   color: rgb(70, 128, 70);
 }
 
+#category-img {
+  display: none;
+}
+
 @media only screen and (max-width: 600px) {
   .menu-container {
     flex-direction: column;
@@ -67,19 +71,20 @@
 
   .category-buttons {
     width: 100%;
-    flex-direction: row;
-    margin-bottom: 20px;
+    flex-direction: row;    
     overflow-x: auto;
+    padding-bottom: 20px;
+
   }
 
   .category-buttons > button {
     flex: 0 0 auto;
-    width: 120px;
+    width: 130px;
     padding: 9px;
     text-align: center;
     font-size: 13px;
-    border: 1px solid black;
-    border-radius: 30px;
+    border: 1px solid rgb(34, 34, 34);
+    border-radius: 10px;
     margin-right: 10px;
   }
 
@@ -90,6 +95,13 @@
   .menu-items-grid {
     grid-template-columns: 1fr;
     width: 100%;
+  }
+
+  #category-img {
+    display: block;
+    margin: 0 auto;
+    width: 40px;
+    padding-bottom: 10px;
   }
 }
 

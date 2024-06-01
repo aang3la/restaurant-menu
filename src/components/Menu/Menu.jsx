@@ -18,6 +18,7 @@ export const Menu = () => {
             onClick={() => handleCategoryClick(categoryData.category)}
             className={selectedCategory === categoryData.category ? "active" : ""}
           >
+            <img id="category-img" src={categoryData.img} />
             {categoryData.category}
           </button>
         ))}

@@ -1,5 +1,5 @@
 import "./About.css";
-import aboutUs_img from "../../assets/lipa_outside.jpg";
+import aboutUs_img from "../../assets/lipa.jpg";
 
 export const About = () => {
   return (
