@@ -1,7 +1,17 @@
+import breakfastImg from './assets/breakfast.png';
+import saladsImg from './assets/salads.png';
+import appetizerImg from './assets/appetizer.png';
+import homemadeImg from './assets/homemade.png';
+import meatImg from './assets/meat.png';
+import fishImg from './assets/fish.png';
+import colaIconImg from './assets/cola-icon.png';
+import alcoholicDrinksImg from './assets/alcoholic-drinks.png';
+
+
 export const menuData = [
     {
         category: "Доручек",
-        img: "./src/assets/breakfast.png",
+        img: breakfastImg,
         items: [
             {
                 name: "Телешка чорба",
@@ -27,7 +37,7 @@ export const menuData = [
     },
     {
         category: "Салати",
-        img: "./src/assets/salads.png",
+        img: saladsImg,
         items: [
             {
                 name: "Шопска салата",
@@ -63,7 +73,7 @@ export const menuData = [
     },
     {
         category: "Топли предјадења",
-        img: "./src/assets/appetizer.png",
+        img: appetizerImg,
         items: [
             {
                 name: "Зденка похована",
@@ -102,7 +112,7 @@ export const menuData = [
     },
     {
         category: "Готвени предјадења",
-        img: "./src/assets/homemade.png",
+        img: homemadeImg,
         items: [
             {
                 name: "Грав",
@@ -143,7 +153,7 @@ export const menuData = [
     },
     {
         category: "Скара",
-        img: "./src/assets/meat.png",
+        img: meatImg,
         items: [
             {
                 name: "Кебап",
@@ -209,7 +219,7 @@ export const menuData = [
     },
     {
         category: "Риба",
-        img: "./src/assets/fish.png",
+        img: fishImg,
         items: [
             {
                 name: "Ослич без коска ",
@@ -243,7 +253,7 @@ export const menuData = [
     },
     {
         category: "Безалкохолни пијалоци",
-        img: "./src/assets/cola-icon.png",
+        img: colaIconImg,
         items: [
             {
                 name: "Кисела вода Пелистерка 1л.",
@@ -282,7 +292,7 @@ export const menuData = [
     },
     {
         category: "Aлкохолни пијалоци",
-        img: "./src/assets/alcoholic-drinks.png",
+        img: alcoholicDrinksImg,
         items: [
             {
                 name: "Скопско 0.5/0.33",
