@@ -360,11 +360,11 @@ export const menuData = [
             },
             {
                 name: "Тиквешка жолта ракија ЛР",
-                price: "60"
+                price: "70"
             },
             {
                 name: "Тиквешка бела ракија ЛР",
-                price: "60"
+                price: "70"
             },
             {
                 name: "Узо 12",
@@ -388,7 +388,7 @@ export const menuData = [
             },
             {
                 name: "Вотка вигор",
-                price: "60"
+                price: "70"
             },
             {
                 name: "Вотка смирноф",
