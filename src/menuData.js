@@ -157,7 +157,7 @@ export const menuData = [
         items: [
             {
                 name: "Кебап",
-                price: "парче/14"
+                price: "парче/16"
             },
             {
                 name: "Кобасица",
@@ -169,7 +169,7 @@ export const menuData = [
             },
             {
                 name: "Уштипак",
-                price: "парче/50"
+                price: "парче/60"
             },
             {
                 name: "Телешки Џигер",
@@ -203,17 +203,17 @@ export const menuData = [
             },
             {
                 name: "Плескавица",
-                price: "90"
+                price: "100"
             },
             {
                 name: "Шарска плескавица 200гр",
                 description: "(мелено месо,кашкавал)",
-                price: "160"
+                price: "200"
             },
             {
                 name: "Гурманска плескавица",
                 description: "(мелено месо,пиперка,кашкавал,сланина)",
-                price: "240"
+                price: "260"
             }
         ]
     },
