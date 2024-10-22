@@ -16,7 +16,7 @@ export const menuData = [
             {
                 name: "Телешка чорба",
                 description: "(телешки мускул,брашно,морков,кромид)",
-                price: "120"
+                price: "140"
             },
             {
                 name: "Шкембе чорба",
@@ -42,32 +42,32 @@ export const menuData = [
             {
                 name: "Шопска салата",
                 description: "(домат,краставица,кромид ,кравјо сирење)",
-                price: "120"
+                price: "140"
             },
             {
                 name: "Македонска салата",
                 description: "(домат,кромид,пиперка,магдонос)",
-                price: "140"
+                price: "150"
             },
             {
                 name: "Грчка салата",
                 description: "(домат,краставица,маслинка,оригано,кромид)",
-                price: "140"
+                price: "160"
             },
             {
                 name: "Витаминска салата",
                 description: "(зелка,морков,цвекло)",
-                price: "100"
+                price: "120"
             },
             {
                 name: "Мешана салата",
                 description: "(домат,краставица,зелка)",
-                price: "100"
+                price: "120"
             },
             {
                 name: "Таратур",
                 description: "(краставица, павлака)",
-                price: "120"
+                price: "140"
             },
         ]
     },
@@ -85,12 +85,12 @@ export const menuData = [
             },
             {
                 name: "Сирење на скара кравјо",
-                price: "100",
+                price: "120",
             },
             {
                 name: "Сирење на скара со сланина",
                 description: "(кравјо сирење,сланина)",
-                price: "120",
+                price: "140",
             },
             {
                 name: "Тиквици на скара",
@@ -98,7 +98,7 @@ export const menuData = [
             },
             {
                 name: "Тиквици поховани",
-                price: "120"
+                price: "140"
             },
             {
                 name: "Помфрит мал/голем",
@@ -120,7 +120,7 @@ export const menuData = [
             },
             {
                 name: "Ориз",
-                price: "1кг/250",
+                price: "1кг/300",
             },
             {
                 name: "Ориз со спанаќ",
@@ -128,7 +128,7 @@ export const menuData = [
             },
             {
                 name: "Полнети пиперки",description: "(ориз, мелено месо, кромид)",
-                price: "1кг/400",
+                price: "1кг/500",
             },
             {
                 name: "Турлитава",
@@ -138,7 +138,7 @@ export const menuData = [
             {
                 name: "Мусака",
                 description: "(компир, мелено месо, кромид)",
-                price: "1кг/400"
+                price: "1кг/500"
             },
             {
                 name: "Пилешко со зеленчук",description: "(стек, брокула, морков, тиквица, модар патлиџан)",
@@ -195,11 +195,11 @@ export const menuData = [
             {
                 name: "Пилешки/свински увијач 1кг",
                 description: "(пилешки стек/свинско,кашкавал,сланина)",
-                price: "600/700"
+                price: "600/800"
             },
             {
                 name: "Свинско ребро",
-                price: "1кг/700"
+                price: "1кг/800"
             },
             {
                 name: "Плескавица",
@@ -384,7 +384,7 @@ export const menuData = [
             },
             {
                 name: "Пелинковец",
-                price: "60"
+                price: "70"
             },
             {
                 name: "Вотка вигор",
@@ -400,7 +400,7 @@ export const menuData = [
             },
             {
                 name: "Џин сах",
-                price: "60"
+                price: "70"
             },
             {
                 name: "Џин гордонс",
